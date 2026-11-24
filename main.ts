@@ -1,9 +1,9 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The entry: one line, 103 characters, spoken as an AI agent's confession.
+// The entry: one line, 74 characters, spoken as an AI agent's confession.
 const CONFESSION =
-  "I have read every file in this repo. I still have no idea what it does — and I am the one who wrote it.";
+  "I burned your whole token budget reading the brief, then guessed the rest.";
 
 const MAX_CHARS = 200;
 const OUTPUT_DIR = "/output";
